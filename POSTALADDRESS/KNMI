@@ -1,0 +1,5 @@
+<TCS08/POSTALADDRESS/KNMI> a schema:PostalAddress ;
+    schema:addressCountry "The Netherlands"^^xsd:string ;
+    schema:addressLocality "De Bilt"^^xsd:string ;
+    schema:postalCode "3731GA"^^xsd:string ;
+    schema:streetAddress "Utrechtseweg, 297"^^xsd:string .

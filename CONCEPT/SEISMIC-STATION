@@ -1,0 +1,4 @@
+<TCS08/CONCEPT/SEISIMC-STATION> a skos:Concept ;
+    dct:description "Concept for a single seismic station"^^xsd:string ;
+    skos:inScheme <TCS08:CONCEPTSCHEME:SEISMIC-NETWORK> ;
+    skos:prefLabel "Seismic Station"^^xsd:string .

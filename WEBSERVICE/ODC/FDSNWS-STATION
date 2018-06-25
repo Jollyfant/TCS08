@@ -1,0 +1,37 @@
+<TCS08/WEBSERVICE/ODC/FDSNWS-STATION> a epos:WebService ;
+    dct:spatial [ a dct:Location ;
+            locn:geometry "POLYGON((-180 -90, 180 -90, 180 90, -180 90, -180 -90))"^^xsd:string ] ;
+    schema:dateModified "2018-06-25T12:34:54.935588"^^xsd:dateTime ;
+    schema:datePublished "2018-06-25T12:34:54.935595"^^xsd:dateTime ;
+    schema:description "HTTP Web API for fdsnws-station at ORFEUS Data Center"^^xsd:string ;
+    schema:identifier "http://www.orfeus-eu.org/fdsnws/station/1"^^xsd:anyURI ;
+    schema:keywords "stationxml,metadata,instrument response,seismology"^^xsd:string ;
+    schema:name "ORFEUS Data Center FDSNWS Station"^^xsd:string ;
+    schema:provider <TC08/ORGANISATION/KNMI> ;
+    dcat:contactPoint <cp:orcid:0000-0002-6250-2474> ;
+    dcat:theme <co:seismology:metadata> ;
+    hydra:entrypoint "http://www.orfeus-eu.org/fdsnws/station/1"^^xsd:anyURI ;
+    hydra:supportedOperation [ a hydra:Operation ;
+            hydra:IriTemplate [ a hydra:IriTemplate ;
+                    hydra:mapping [ a hydra:IriTemplateMapping ;
+                            hydra:required false ;
+                            hydra:variable "station"^^xsd:string ],
+                        [ a hydra:IriTemplateMapping ;
+                            hydra:required false ;
+                            hydra:variable "starttime"^^xsd:string ],
+                        [ a hydra:IriTemplateMapping ;
+                            hydra:required false ;
+                            hydra:variable "endtime"^^xsd:string ],
+                        [ a hydra:IriTemplateMapping ;
+                            hydra:required false ;
+                            hydra:variable "location"^^xsd:string ],
+                        [ a hydra:IriTemplateMapping ;
+                            hydra:required false ;
+                            hydra:variable "channel"^^xsd:string ],
+                        [ a hydra:IriTemplateMapping ;
+                            hydra:required false ;
+                            hydra:variable "network"^^xsd:string ] ;
+                    hydra:template "/query{?network,station,location,channel,starttime,endtime}"^^xsd:string ;
+                    hydra:variableRepresentation "BasicRepresentation"^^xsd:string ] ;
+            hydra:method "GET"^^xsd:string ;
+            hydra:returns "StationXML"^^xsd:string ] .

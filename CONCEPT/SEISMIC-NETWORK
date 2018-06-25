@@ -1,0 +1,4 @@
+<TCS08/CONCEPT/SEISIMC-NETWORK> a skos:Concept ;
+    dct:description "Collection of seismic stations in a seismic network"^^xsd:string ;
+    skos:inScheme <TCS08:CONCEPTSCHEME:SEISMOLOGY> ;
+    skos:prefLabel "Seismic Network"^^xsd:string .

@@ -1,0 +1,9 @@
+<TCS08/ORGANISATION/ORFEUS> a schema:Organization ;
+    schema:address <TCS08:POSTALADDRESS:KNMI> ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "PIC"^^xsd:string ;
+            schema:value "997012076"^^xsd:string ] ;
+    schema:legalName "Stiching ORFEUS"^^xsd:string ;
+    schema:leiCode "Whatever"^^xsd:string ;
+    schema:logo "https://www.orfeus-eu.org/images/orfeus2.png" ;
+    schema:url "https://www.orfeus-eu.org"^^xsd:anyURI .

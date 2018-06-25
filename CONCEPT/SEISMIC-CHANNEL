@@ -1,0 +1,4 @@
+<TCS08/CONCEPT/SEISIMC-CHANNEL> a skos:Concept ;
+    dct:description "Single waveform channel recorded at a station"^^xsd:string ;
+    skos:inScheme <TCS08:CONCEPTSCHEME:SEISMOLOGY> ;
+    skos:prefLabel "Seismic Channel"^^xsd:string .

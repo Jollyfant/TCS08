@@ -1,0 +1,9 @@
+<TCS08/ORGANISATION/KNMI> a schema:Organization ;
+    schema:address <TCS08:POSTALADDRESS:KNMI> ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "PIC"^^xsd:string ;
+            schema:value "999518944"^^xsd:string ] ;
+    schema:legalName "KNMI Dutch Royal Metereological Institute"^^xsd:string ;
+    schema:leiCode "Whatever"^^xsd:string ;
+    schema:logo "http://cdn.knmi.nl/assets/logo_large-1f49334b8856e16f352187f1b52d0edf258976c6329407b0b75f5f109ea012fb.png"^^xsd:anyURI ;
+    schema:url "http://www.knmi.nl"^^xsd:anyURI .

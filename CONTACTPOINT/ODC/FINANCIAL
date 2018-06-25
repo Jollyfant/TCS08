@@ -1,0 +1,6 @@
+<TCS08/CONTACTPOINT/ODC/FINANCIAL> a schema:ContactPoint ;
+    schema:availableLanguage "Dutch,English"^^xsd:string ;
+    schema:contactType "Financial Contact"^^xsd:string ;
+    schema:name "Reinoud Sleeman"^^xsd:string ;
+    schema:description "Financial contact for ORFEUS Data Center"^^xsd:string ;
+    schema:email "sleeman@knmi.nl"^^xsd:string .

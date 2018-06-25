@@ -1,0 +1,6 @@
+<TCS08/CONTACTPOINT/ODC/TECHNICAL> a schema:ContactPoint ;
+    schema:availableLanguage "Dutch,English"^^xsd:string ;
+    schema:contactType "Technical Contact"^^xsd:string ;
+    schema:name "Mathijs Koymans"^^xsd:string ;
+    schema:description "Technical contact point for ORFEUS Data Center"^^xsd:string ;
+    schema:email "koymans@knmi.nl"^^xsd:string .

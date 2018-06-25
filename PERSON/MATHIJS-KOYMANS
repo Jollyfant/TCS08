@@ -1,0 +1,7 @@
+<TCS08/PERSON/MATHIJS-KOYMANS> a schema:Person ;
+    schema:affiliation <TC08/ORGANISATION/KNMI> ;
+    schema:email "koymans@knmi.nl"^^xsd:string ;
+    schema:familyName "Koymans"^^xsd:string ;
+    schema:givenName "Mathijs"^^xsd:string ;
+    schema:identifier "orcid:0000-0002-6250-2474"^^xsd:string ;
+    schema:telephone "+31302206911"^^xsd:string .

@@ -1,0 +1,3 @@
+<TCS08/CONCEPTSCHEME/SEISMOLOGY> a skos:ConceptScheme ;
+    dct:description "It contains the concepts of the Seismological domain"^^xsd:string ;
+    dct:title "Seismology Concepts"^^xsd:string .
